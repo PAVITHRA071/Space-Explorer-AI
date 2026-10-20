@@ -1,0 +1,30 @@
+{
+  "algorithm": "q_learning",
+  "algorithm_name": "Q-Learning",
+  "episodes": 2500,
+  "seed": 42,
+  "hyperparameters": {
+    "alpha": 0.1,
+    "gamma": 0.95,
+    "epsilon_start": 1.0,
+    "epsilon_decay": 0.998,
+    "epsilon_min": 0.01,
+    "final_epsilon": 0.01
+  },
+  "environment_signature": "c3d6ddae53e107ac",
+  "q_table_shape": [
+    2560,
+    4
+  ],
+  "evaluation": {
+    "episodes": 200,
+    "noise": 0.05,
+    "mean_reward": 140.06,
+    "success_rate": 90.0,
+    "mean_steps_success": 20.92222222222222,
+    "collision_rate": 10.0,
+    "timeout_rate": 0.0,
+    "mean_crystals": 3.765
+  },
+  "saved_at": "2026-10-15 09:40:31"
+}

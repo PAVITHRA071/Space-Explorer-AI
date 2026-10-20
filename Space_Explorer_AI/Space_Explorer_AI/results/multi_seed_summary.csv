@@ -1,0 +1,3 @@
+algorithm,seeds,episodes,mean_reward_mean,mean_reward_std,success_rate_percent_mean,success_rate_percent_std,mean_steps_success_mean,mean_steps_success_std,collision_rate_percent_mean,collision_rate_percent_std,mean_crystals_mean,mean_crystals_std
+Q-Learning,5,2500,136.037,0.928,88.6,0.374,20.957,0.022,11.4,0.374,3.695,0.011
+SARSA,5,2500,130.372,5.033,89.1,1.068,19.763,2.606,10.9,1.068,3.329,0.428
